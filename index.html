@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ברוך איטח</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+        tinymce.init({
+          selector: "#mytextarea",
+          plugins: "emoticons",
+          toolbar: "emoticons",
+          toolbar_location: "bottom",
+          menubar: false
+        });
+      </script>
+</head>
+<body>
+    <header>
+      
+    </header>
+    <div class='container'>
+        <nav>
+            <h1 class='logo'>1939 - 18.11.2020</h1>
+            <ul class='nav-links'>
+                <li><a href="#">שאלות</a></li>
+                <li><a href="#con">צרו קשר</a></li>
+                <li><a href="#qr">קישור לאתר</a></li>
+                <li><a href="#aboutMe">לייק</a></li>
+                <li><a href="#mySong">השיר שלי</a></li>
+                <li><a href="#myPhotos">תמונות</a></li>
+                <li><a href="#aboutMe">הסיפור שלי</a></li>
+            </ul>
+        </nav>
+        <section class='about-me' id='aboutMe'>
+            <h1 class='section-title'>הסיפור שלי</h1>
+            <div class='stories'>
+                <img src='./assets/img/aboutme-img.jfif'/>
+                <div class='back-square'>
+                    <h2 class='upper-quote'>"</h2>
+                    <p id='aboutMeText'></p>
+                    <h2 class='down-quote'>"</h2>
+                </div>
+            </div>
+            <div class ='facebook-like'>
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v10.0" nonce="4VGYBh4G"></script>
+                <div class="fb-like" data-href="https://www.facebook.com/ELALAirlinesIL" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="false"></div>
+          
+            </div>
+           
+            </section>
+        <section class='my-photos' id='myPhotos'>
+            <h1 class ='section-title'>תמונות</h1>
+            <div class='img-area'>
+                <div class='single-img'  style="background-image: url('./assets/img/gallary/1.jpeg')"></div>
+                <div class='single-img'  style="background-image: url('./assets/img/gallary/2.jpeg')"></div>
+                <div class='single-img'  style="background-image: url('./assets/img/gallary/3.jpeg')"></div>
+                <div class='single-img'  style="background-image: url('./assets/img/gallary/4.jpeg')"></div>
+                <div class='single-img'  style="background-image: url('./assets/img/gallary/5.jpeg')"></div>
+                <div class='single-img'  style="background-image: url('./assets/img/gallary/6.jpeg')"></div>
+                <div class='single-img'  style="background-image: url('./assets/img/gallary/7.jpeg')"></div>
+                <div class='single-img'  style="background-image: url('./assets/img/gallary/8.jpeg')"></div>
+                <div class='single-img'  style="background-image: url('./assets/img/gallary/9.jpeg')"></div>
+                <div class='single-img'  style="background-image: url('./assets/img/gallary/10.jpeg')"></div>
+            </div>
+        </section>
+        <section class='my-song' id='mySong'>
+            <iframe id='song-video' src="https://www.youtube.com/embed/Grn7v224_HI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        </section>
+
+
+        
+        <section id='contactMe'>
+            <h1 id='con'class ='section-title'>צרו קשר</h1>
+            <div class="contact-from">
+                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                    <span>
+                        <label for="name">השם שלך</label>
+                        <div class="name-input">
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                    </span>
+                    <span>
+                        <label for="email">מייל</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </span>
+                    <span>
+                        <label for="Message">ההודעה</label>
+                        <textarea type="text" id='mytextarea' name="comment" ></textarea>
+                    </span>
+                    <span class='submit-contact'>
+                        <button type="submit" >שלח</button>
+                    </span>
+            </div>
+        </section>
+
+    </div>
+    <section class='QA'>
+        <div>
+            <h1 class ='section-title'>ההבדלים בניהם</h1>
+            <table class= 'different'>
+                <tr>
+                    <th>WEb 1.0</th>
+                    <th>WEB 2.0</th>
+                    <th>Web 3.0</th>
+                </tr>
+                <tr>
+                    <td>האינטרנט ניתן רק לקריאה והוא סטטי</td>
+                    <td>האינטרנט ניתן לקריאה וכתיבה</td>
+                    <td>האינטרנט אישי ונייד,זוהי רשת אינטלגנטית שמאפשרת קיראה וכתיבה</td>
+                </tr>
+                <tr>
+                    <td>מנועי החיפוש מאחזרים תכני מאקרו. החיפוש מהיר מאוד אך פעמים רבות התוצאות אינן מדויקות או יותר ממה שהמשתמש יכול לקלוט</td>
+                    <td>מנועי האחזור מאחזרים תגים עם תוכן מיקרו.תהליך התיוג הוא ידני קשה ומכסה מאט מאוד של ה-www </td>
+                    <td>מנועי החיפוש ישיגו טקסטים של תוכן מיקרו שתויגו באופן אוטומטי. דבר אשר מרמז על תרגום של מספר עצום של תוכני מאקרו של web 1.0 לתכני מיקרו. התוצאה תהיה חיפוש מדוייק יותר מאחר ופותר את הבעיה שלמילים נרדפות</td>
+                </tr>
+                <tr>
+                    <td>חברות מפרסמות תוכן שאנשים צורכים (The Marker)</td>
+                    <td>אנשים מפרסמים תכנים שאנשים אחרים יכולים לצרוך,חברות בונות פלטפורמות שמאפשרים לאנשים לפרסם ולעדכן תוכן כמו ויקיפדיה</td>
+                    <td>אנשים יכולים לבנות יישומים שאנשים יכולים ליצור איתם אינטרקציות,חברות בונות פלטפורמות שמאפשרות לאנשים לפרסם שירותים ע"י מינוף האסוציאציות בין אנשים ותוכן גמו פייסבוק</td>
+                </tr>
+
+            </table>
+        </div>
+        <div class='example'>
+            <h1 class ='section-title'>דוגמא להבדל</h1>
+            <li>
+                <span>Web 1.0-</span> 
+                כדי למצוא נתונים רלוונטים על "השיר החדש של מרגי" המתמש צריך לכתוב כתובת (URL) ספציפית 
+            </li>
+            <li>
+                <span>Web 2.0-</span> 
+                 כדי למצוא תוצאות "של השיר החדש של מרגי" נכניסו למנוע החיפוש ונקבל תוצאות כתגיות אינטרנט
+            </li>
+            <li>
+                <span>Web 3.0-</span> 
+                כדי למצוא תוצאה ל שיר החדש של מרגי נכניס למנוע החיפוש ונקבל תוצאות המכילות את מילות השאילתה ומילים סמנטיות כתגיות או מידע אינטרנט
+            </li>
+        </div>
+
+    </section>
+    <footer class='qr-section'>
+        <table>
+            <tr>
+                <td><h2>קוד לאתר</h2></td>.
+                <td class='table-space'></td>
+                <td><h2>נר זיכרון</h2></td>
+            </tr>
+            <tr>
+                <td> 
+                     <div id='qr'></div>
+                </td>
+                <td class = 'table-space'></td>
+                <td>
+                    <div class='info'>
+                        <div id='remember'></div>
+                    </div>
+                </td>
+
+            </tr>
+        </table>        
+    </footer>
+
+
+    <script src='index.js'></script>
+    
+
+</body>
+</html>
