@@ -296,6 +296,11 @@ footer h2{
 }
 
 
+.qr-section td{
+    width:                  10vw;
+    border:                 none;
+}
+
 
 #remember{
     z-index:                10;
@@ -335,9 +340,6 @@ footer h2{
     background-size:        cover;
 }
 
-td{
-    width:                  10vw;
-}
 
 
 .different{
@@ -372,5 +374,4 @@ td{
 .example th, td {
     border-bottom:          1px solid rgb(168, 160, 160);
     padding:                2% 1%;
-
 }
