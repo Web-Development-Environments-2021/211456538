@@ -165,7 +165,8 @@ section {
 
 .my-photos {
   background-color: #24252a;
-  min-height: max-content;
+/*   min-height: max-content; */
+  height: 100%;
 }
 
 .my-photos h1 {
@@ -199,10 +200,9 @@ section {
 .my-song {
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-color: #24252a;
-/*   padding-top: 20px; */
 }
 
 #song-video {
