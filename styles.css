@@ -167,6 +167,7 @@ section {
   background-color: #24252a;
 /*   min-height: max-content; */
   height: 100%;
+  padding-bottom: 15px;
 }
 
 .my-photos h1 {
